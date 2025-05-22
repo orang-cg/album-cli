@@ -1,9 +1,12 @@
 #!/Users/charlie/Documents/Programming/Python/album-cli/bin/python3
 
-#TODO:Find a suitable low-weight Music Player for local playing
-#TODO:Add TUI/CLI Interface
+#TODO: Find a suitable low-weight Music Player for local playing
+#TODO: Find a suitable library for local playing
+#TODO: Add TUI/CLI Interface
+#TODO: Add commented part in config to specify Spotify ClientID, Secret, and URI
+#TODO: Add list function, to list Artists from artist.config and if you type and artist, list their available albums
 
-#NOTE:'album status' will allow the visibility of the length of the song/what the song is
+#NOTE: 'album status' will allow the visibility of the length of the song/what the song is
 
 #=======================================================================================================
 
@@ -101,7 +104,7 @@ def list():
 def local():
     artist()
     album()
-    #FIX:See previous message
+    #FIX: See previous message
     #if artist != artistList:
     #   options() 
 
